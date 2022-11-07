@@ -1,0 +1,11 @@
+[package]
+name = "solution_5"
+version = "0.0.1"
+
+[dependencies]
+# Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+move_lock = { local = "./movectf-5" }
+
+[addresses]
+hacker =  "0x0"
+sui =  "0000000000000000000000000000000000000002"
