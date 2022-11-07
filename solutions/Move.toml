@@ -1,0 +1,12 @@
+[package]
+name = "solutions"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+flash = { local = "../movectf-4" }
+
+[addresses]
+solutions =  "0x0"
+movectf_4 = "0xdae2bdb9c4420057a34e6e4f0aaadd25849e3278"
+sui =  "0000000000000000000000000000000000000002"

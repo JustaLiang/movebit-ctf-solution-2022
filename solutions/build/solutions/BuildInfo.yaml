@@ -1,0 +1,24 @@
+---
+compiled_package_info:
+  package_name: solutions
+  address_alias_instantiation:
+    movectf_4: dae2bdb9c4420057a34e6e4f0aaadd25849e3278
+    solutions: "0000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000002"
+  source_digest: 457297225FB79F43266EEC7B89946480D8B6551D4A6C948C3D0774588E93BDB4
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Sui
+  - flash
