@@ -87,7 +87,7 @@ module hacker::move_unlock {
     }
 
     #[test]
-    public fun test_movectf_lock() {
+    fun test_move_unlock() {
         let key : vector<u64> = vector[25, 11, 6, 10, 13, 25, 12, 19, 2];
         let plattext : vector<u64> = vector[
              2, 14, 13, 6, 17, 0, 19, 
@@ -111,7 +111,7 @@ module hacker::move_unlock {
             16, 10, 7, 2, 1, 21, 1, 25, 
             18, 22, 2, 2, 7, 25, 15, 7, 10];
 
-        // check if accessor functions return correct values
+        // check if key works
         assert!(movectf_lock(plattext, key) == encrypted_flag, 1);
     }
 }
