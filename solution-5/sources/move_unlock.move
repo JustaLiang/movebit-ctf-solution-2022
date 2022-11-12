@@ -1,4 +1,4 @@
-module hacker::move_unlock { 
+module 0x0::move_unlock { 
     use sui::tx_context::{TxContext};
     use movectf::move_lock::{Self, ResourceObject};
 

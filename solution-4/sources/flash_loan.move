@@ -1,4 +1,4 @@
-module hacker::flash_loan {
+module 0x0::flash_loan {
     use movectf::flash::{Self, FlashLender};
     use sui::tx_context::TxContext;
 

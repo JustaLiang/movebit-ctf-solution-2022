@@ -7,5 +7,4 @@ version = "0.0.1"
 ctf = { local = "./movectf-6" }
 
 [addresses]
-hacker =  "0x0"
 sui =  "0000000000000000000000000000000000000002"
